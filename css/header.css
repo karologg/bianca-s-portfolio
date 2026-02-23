@@ -1,0 +1,52 @@
+:root {
+     --cor-pri: #F5EFE9;
+     --cor-sec: #F8D5DF;
+     --cor-ter: #FC8EAC;
+     --acc-01: #9F4567;
+     --acc-02: #78528E;
+     --acc-03: #D4C1EC;
+
+}
+
+header {
+    justify-content: center;
+    background-color: var(--cor-sec);
+    margin: 0;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    color: var(--acc-01);
+}
+
+.nav-links li a {
+    font-family: "Fuzzy Bubbles", monospace;
+    font-weight: 700;
+    font-style: normal;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--acc-01);
+}
+
+.nav-links li a:hover {
+    background-color: var(--acc-03);
+    color: var(--cor-pri);
+    border-radius: 0.5rem;
+    text-decoration: underline;
+    text-decoration-color: var(--cor-pri);
+}
+
+.nav-links li a.active {
+    background-color: var(--acc-02);
+    color: var(--cor-pri);
+    border-radius: 0.5rem;
+    text-decoration: underline;
+    text-decoration-color: var(--cor-pri);
+}
